@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhioIdentityAPI", "OhioIdentityAPI\OhioIdentityAPI.csproj", "{469803EC-AEDF-462E-A00C-369A7A1C3EB7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OhioIdentityDB", "OhioIdentityDB\OhioIdentityDB.sqlproj", "{2C7951A7-52AC-4E9C-B330-F9BF63094541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhioIdentity.DataAccess", "OhioIdentity.DataAccess\OhioIdentity.DataAccess.csproj", "{634250A2-0181-4AD4-A4D9-842C24BC442B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469803EC-AEDF-462E-A00C-369A7A1C3EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469803EC-AEDF-462E-A00C-369A7A1C3EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469803EC-AEDF-462E-A00C-369A7A1C3EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469803EC-AEDF-462E-A00C-369A7A1C3EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7951A7-52AC-4E9C-B330-F9BF63094541}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{634250A2-0181-4AD4-A4D9-842C24BC442B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634250A2-0181-4AD4-A4D9-842C24BC442B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634250A2-0181-4AD4-A4D9-842C24BC442B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634250A2-0181-4AD4-A4D9-842C24BC442B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0009CC44-74CB-4CE5-9B59-C10E5F2D6658}
+	EndGlobalSection
+EndGlobal
